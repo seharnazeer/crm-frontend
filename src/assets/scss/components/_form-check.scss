@@ -57,7 +57,7 @@ $value in $theme-colors {
     .form-check-input {
         float: right;
         margin-left: 0;
-        margin-right: calc($form-check-padding-start * -1);
+        margin-right: calc(#{$form-check-padding-start} * -1);
     }
 
     .form-check-label {
@@ -66,7 +66,7 @@ $value in $theme-colors {
 
     &.form-switch {
         .form-check-input {
-            margin-right: calc($form-check-padding-start * -1.6);
+            margin-right: calc(#{$form-check-padding-start} * -1.6);
         }
     }
 }
@@ -249,14 +249,14 @@ $value in $theme-colors {
 
 .form-switch-right {
     display: inline-block;
-    padding-right: calc($form-check-padding-start * .5);
+    padding-right: calc(#{$form-check-padding-start} * .5);
     margin-bottom: 0;
     padding-left: 0 !important;
 
     .form-check-input {
         float: right;
         margin-left: 0;
-        margin-right: calc($form-check-padding-start * -1);
+        margin-right: calc(#{$form-check-padding-start} * -1);
         margin-top: .1em !important;
     }
 

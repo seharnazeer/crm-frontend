@@ -269,7 +269,7 @@ ul {
     .form-check-input {
         float: left !important;
         margin-right: 0 !important;
-        margin-left: $form-check-padding-start * -1 !important;
+        margin-left: #{$form-check-padding-start} * -1 !important;
     }
     label {
         margin-left: 1rem;
